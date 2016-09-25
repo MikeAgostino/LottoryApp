@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">Number Generator</string>
+  <string name="ad_unit_id">ca-app-pub-3721080012474962/8625412330</string>
+  <string name="Numbers_Screen_unit_id">ca-app-pub-3721080012474962/8625412330</string>
+</resources>

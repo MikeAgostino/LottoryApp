@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Please Select a Lottery"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="91.5dp"
+        android:gravity="center"
+        android:id="@+id/Select" />
+    <Button
+        android:text="Canadian Lotteries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CanLotto" />
+    <Button
+        android:text="American Lotteries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/USLotto" />
+    <Space
+        android:layout_below="@+id/USLotto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:id="@+id/Space1" />
+</LinearLayout>

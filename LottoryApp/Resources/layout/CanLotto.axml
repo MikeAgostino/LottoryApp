@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Canadian Lotteries"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="71.5dp"
+        android:gravity="center"
+        android:id="@+id/textView1" />
+    <Button
+        android:text="Ontario 649"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ont649" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space1" />
+    <Button
+        android:text="LottoMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LottoMax" />
+    <Button
+        android:text="Pick 4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Pick4" />
+    <Button
+        android:text="Pick 3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Pick3" />
+    <Button
+        android:text="Pick 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Pick2" />
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/CanAdView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/ad_unit_id" />
+    </RelativeLayout>
+</LinearLayout>

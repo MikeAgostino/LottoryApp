@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    tools:gridSpec="1|12|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:text="Create Custom Lottory" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:layout_below="@+id/textView1"
+        android:id="@+id/space1" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearance"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/space1"
+        android:text="Select Minimum number for range" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:layout_below="@+id/textView2"
+        android:id="@+id/space2" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearance"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"
+        android:layout_width="219.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/space2"
+        android:text="Select Max number for range"
+        android:layout_marginRight="82.5dp" />
+    <Button
+        android:text="Generate Numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:id="@+id/GenerateCustom" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView3"
+        android:id="@+id/UpperLimit"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView2"
+        android:id="@+id/LowerLimit"
+        android:layout_below="@id/GenerateCustom" />
+  <EditText
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView2"
+        android:id="@+id/TotalNumbers"
+        android:layout_below="@id/LowerLimit" />
+  <EditText
+    android:inputType="number"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/textView2"
+    android:id="@+id/TotalBonusNumbers"
+    android:layout_below="@id/TotalNumbers" />
+  <EditText
+  android:inputType="number"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_toRightOf="@id/textView2"
+  android:id="@+id/LowerBonusLimit"
+  android:layout_below="@id/TotalBonusNumbers" />
+  <EditText
+  android:inputType="number"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_toRightOf="@id/textView2"
+  android:id="@+id/UpperBonusLimit"
+  android:layout_below="@id/LowerBonusLimit" />
+</RelativeLayout>

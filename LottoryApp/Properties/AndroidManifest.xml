@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.SantoMigueProductions.LotteryApp" android:versionCode="3" android:versionName="1.2" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="16" />
+	<application android:label="LotteryApp" android:icon="@drawable/Icon">
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <activity android:theme="@android:style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+  </application>
+</manifest>
